@@ -26,3 +26,5 @@ function results() {
        var akan =akanMale[day2];
     }else{
             var akan =akanFemale[day2];}
+            alert("You were born on   " + dayOfTheWeek [day2] + "  and your akan name is " + akan);
+}
