@@ -9,4 +9,20 @@ function results() {
     var date=new Date(year + "/" + month + "/" + day);
     var gender= print();
     var day2=date.getDay();
-    var akan; }
+    var akan;  if(day <1 || day >31){
+        alert("invalid date");
+            return false;
+    }
+    if (month <1 || month>12){
+        alert("Invalid month");
+        return false;
+    }
+    if(year <1900 || year >2030){
+            alert("invalid year");
+            return false;
+    }
+
+    if(gender === "male") {
+       var akan =akanMale[day2];
+    }else{
+            var akan =akanFemale[day2];}
