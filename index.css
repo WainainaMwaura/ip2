@@ -1,18 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-  }
-  .container { background-color: rgba(0, 0, 255, 0);
-    margin-top: 5%;
-    opacity: 0.5;
-  }
-  .submit{
-      background-color: purple;
-      
-  }
-  .circle1,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  background-color: rgba(0, 0, 255, 0);
+  margin-top: 5%;
+  opacity: 0.5;
+}
+.submit {
+  background-color: purple;
+}
+.circle1,
 .circle2 {
   background: whitesmoke;
   background: linear-gradient(
@@ -26,19 +26,22 @@
   border-radius: 50%;
 }
 .circle1 {
-    top: 2%;
-    right: 80%;
-  }
-  .circle2 {
-    bottom: 5%;
-    left: 80%;
-  }
-body{background-color: black;}
-.text{color:whitesmoke ;
-    font-size: 150%;
-    margin-top: 5%;
-    text-align: center;
-
+  top: 2%;
+  right: 80%;
 }
-.radio-button{margin-top: 3%;}
-  
+.circle2 {
+  bottom: 5%;
+  left: 80%;
+}
+body {
+  background-color: black;
+}
+.text {
+  color: whitesmoke;
+  font-size: 150%;
+  margin-top: 5%;
+  text-align: center;
+}
+.radio-button {
+  margin-top: 3%;
+}
