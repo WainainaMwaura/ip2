@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  .container { background-color: rgb(165, 165, 197);
+    margin-top: 10%;
+    opacity: 0.5;
+
+  }
+  .submit{
+      background-color: purple;
+      
+  }
+  .circle1,
+.circle2 {
+  background: purple;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+    top: 2%;
+    right: 80%;
+  }
+  .circle2 {
+    bottom: 5%;
+    left: 80%;
+  }
+  
